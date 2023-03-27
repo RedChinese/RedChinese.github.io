@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(0, 100, 100);
+}
+
+div{
+    background-color: yellow;
+}
+h1{background-color: beige;}
+div h1{
+    /* width: 500; */
+    border-color: black;
+    border-width: 1px;
+    border-style: dashed;
+    text-align: center; 
+    /* background-color: rgb(100,100, 255); */
+    font-size: 50px;
+    font-family: 'heiti', Courier, monospace;
+    /* border-top: 10px; */
+}
+
