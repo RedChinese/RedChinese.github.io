@@ -5,7 +5,11 @@ body{
 div{
     background-color: yellow;
 }
-h1{background-color: beige;}
+h1,h2,h3{
+    font-family: Arial;
+    /* background-color: beige; */
+    color: yellow;
+}
 div h1{
     /* width: 500; */
     border-color: black;
@@ -17,4 +21,11 @@ div h1{
     font-family: 'heiti', Courier, monospace;
     /* border-top: 10px; */
 }
-
+audio{
+    background-color: beige;
+    width: 1000px;
+    /* height: 100px; */
+}
+div#link{
+    width: 400px;
+}
