@@ -43,6 +43,10 @@ audio{
     width: 1000px;
     /* height: 100px; */
 }
+div#content h2{
+
+    height: 500px;
+}
 div#link{
     background-color: bisque;
     float: left;
