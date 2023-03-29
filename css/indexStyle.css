@@ -1,31 +1,66 @@
 body{
-    background-color: rgb(0, 100, 100);
+    background-color: rgb(225, 255, 225);
+    
+    /* width: 1200px; */
 }
 
 div{
-    background-color: yellow;
+    float: left;
+    /* width: 1200px; */
+    /* background-color: yellow; */
 }
 h1,h2,h3{
+    
     font-family: Arial;
     /* background-color: beige; */
-    color: yellow;
+    /* color: yellow; */
 }
-div h1{
+header h1{
+    text-align: center;
+}
+div h2{
+    background-color: cornflowerblue;
+    width: 404px;
+    float: left;
     /* width: 500; */
     border-color: black;
     border-width: 1px;
-    border-style: dashed;
+    border-style: solid;
+    border-radius: 20px;
     text-align: center; 
     /* background-color: rgb(100,100, 255); */
-    font-size: 50px;
+    /* font-size: 50px; */
     font-family: 'heiti', Courier, monospace;
     /* border-top: 10px; */
 }
+
 audio{
     background-color: beige;
     width: 1000px;
     /* height: 100px; */
 }
 div#link{
+    background-color: bisque;
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    width: 200px;
+    /* height: 50px; */
+    border-radius: 20px;
+    text-align: center;
+    
+}
+div#email{
+    
+    background-color: bisque;
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
     width: 400px;
+    /* height: 50px; */
+    border-radius: 20px;
+    text-align: center;
+
 }
