@@ -17,8 +17,50 @@ h1,h2,h3{
 }
 header h1{
     text-align: center;
+
 }
-div h2{
+hr{
+    float: left;
+}
+div#content{
+    border-style: groove;
+    /* min-width: 450px;
+    max-width: 13000px;
+    min-height: 500px;
+    max-height: 3200px; */
+}
+audio{
+   
+    background-color: beige;
+    width: 1000px;
+    /* height: 100px; */
+}
+div#content div.item{
+    border-style: groove;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    float: left;
+    width: 410px;
+   min-height: 400px;
+    
+    background-color: rgb(223, 205, 25);
+}
+
+div#content div#link{
+
+    background-color: bisque;
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    width: 200px;
+    /* height: 50px; */
+    border-radius: 20px;
+    text-align: center;
+}
+
+div#content div h2{
     background-color: cornflowerblue;
     width: 404px;
     float: left;
@@ -33,33 +75,7 @@ div h2{
     font-family: 'heiti', Courier, monospace;
     /* border-top: 10px; */
 }
-div#content{
-    
-    min-width: 450px;
-    max-width: 13000px;
-}
-audio{
-    background-color: beige;
-    width: 1000px;
-    /* height: 100px; */
-}
-div#content h2{
-
-    height: 500px;
-}
-div#link{
-    background-color: bisque;
-    float: left;
-    border-style: solid;
-    border-width: 1px;
-    text-align: center;
-    width: 200px;
-    /* height: 50px; */
-    border-radius: 20px;
-    text-align: center;
-    
-}
-div#email{
+div#content div#email{
     
     background-color: bisque;
     float: left;
@@ -71,4 +87,7 @@ div#email{
     border-radius: 20px;
     text-align: center;
 
+}
+footer{
+    float: left;
 }
