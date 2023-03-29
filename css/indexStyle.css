@@ -33,7 +33,11 @@ div h2{
     font-family: 'heiti', Courier, monospace;
     /* border-top: 10px; */
 }
-
+div#content{
+    
+    min-width: 450px;
+    max-width: 13000px;
+}
 audio{
     background-color: beige;
     width: 1000px;
