@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(225, 255, 225);
+    background-color: rgb(230,240,220);
     
     /* width: 1200px; */
 }
@@ -10,7 +10,9 @@ div{
     /* background-color: yellow; */
 }
 h1,h2,h3{
-    
+    /* height: 100px;40 */
+    background-color: rgb(95, 160, 127);
+    color: rgb(246, 248, 241);
     font-family: Arial;
     /* background-color: beige; */
     /* color: yellow; */
@@ -44,12 +46,12 @@ div#content div.item{
     width: 410px;
    min-height: 400px;
     
-    background-color: rgb(223, 205, 25);
+    /* background-color: rgb(249, 226, 83); */
 }
 
 div#content div#link{
 
-    background-color: bisque;
+    background-color: rgb(253, 224, 117);
     float: left;
     border-style: solid;
     border-width: 1px;
@@ -61,7 +63,8 @@ div#content div#link{
 }
 
 div#content div h2{
-    background-color: cornflowerblue;
+    color: rgb(254,254,255);
+    /* background-color: rgb(162, 209, 218); */
     width: 404px;
     float: left;
     /* width: 500; */
@@ -77,7 +80,7 @@ div#content div h2{
 }
 div#content div#email{
     
-    background-color: bisque;
+    background-color: rgb(253, 224, 117);
     float: left;
     border-style: solid;
     border-width: 1px;
