@@ -9,7 +9,7 @@ header {
     margin-bottom: 0px;
 }
 
-header h1 {
+header h1{
     border-radius: 5px;
     border-style: dashed;
     border-color: deepskyblue;
@@ -46,7 +46,7 @@ header a {
 
 }
 
-#content ul {
+.item ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -54,7 +54,7 @@ header a {
     background-color: rgb(230, 240, 220);
 }
 
-#content li {
+.item li {
 
     display: inline-block;
     color: black;
@@ -64,12 +64,16 @@ header a {
     float: left;
 }
 
-#content a {
+.item a {
     display: inline-block;
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+.item p{
+    float: left;
+    width: 100%;
 }
 
 li a:hover {
@@ -127,43 +131,10 @@ div.item {
     text-align: center;
 }
 
-p a {
-    font-size: 30px;
-}
-
-div#link {
-    width: 49.5%;
-    height: 15%;
-    background-color: rgb(253, 224, 117);
-    float: left;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 5px;
-    line-height: 20px;
-    text-align: center;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    /* margin-left: 3px;
-     margin-right: 3px; */
-}
 
 
-div#email:hover {
-    background-color: lightpink;
-}
 
-div#link:hover {
-    background-color: lightpink;
-}
-
-#link p {
-    height: 5%;
-    margin-top: 20px;
-    text-align: center;
-    line-height: 60px;
-}
-
-div.item h2 {
+.item h2 {
     margin-top: 0;
     color: rgb(254, 254, 255);
     text-align: center;
@@ -171,31 +142,8 @@ div.item h2 {
 
 }
 
-div#email {
 
-    background-color: rgb(253, 224, 117);
-    float: left;
-    border-style: solid;
-    border-width: 1px;
-    text-align: center;
-    width: 98%;
-    /* height: 50px; */
-    border-radius: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    text-align: center;
 
-}
-
-#email p {
-    height: 5%;
-    margin-top: 20px;
-    text-align: center;
-    line-height: 60px;
-    font-size: 30px;
-}
 
 
 footer {
